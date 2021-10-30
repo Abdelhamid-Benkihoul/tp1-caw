@@ -1,0 +1,79 @@
+/* 1 */
+/*  -ressources externes: amazing.css
+    -ressources locales: */
+/* 2 */
+img {
+    border: 2px solid red;   
+}
+/* 3 */
+h1 {
+    background-color: black;
+}
+/* 4 */
+h1, h2 {
+    color: gray;
+}
+/* 5 */
+section.s h2 {
+    border: 1px solid LawnGreen;
+}
+/* 6 */
+#mon > span {
+    color: HotPink;
+}
+/* 7 */
+#mon div {
+    border: 1px solid red;
+}
+/* 8 */
+#mon > div > span {
+    background-color: yellow;
+}
+/* 9 */
+#wed:hover h2 {
+    color: LawnGreen;
+}
+/* 10 */
+#mon:hover h2,
+#tue:hover h2 {
+    color: red;
+}
+
+/* Propriété de spécificité */
+
+/* 11 */
+h1, h2 {
+    color: HotPink;
+}
+
+/* 12 -la couleur va changée */
+
+/* 13 */
+li:first-of-type {
+    font-weight: bold;
+}
+
+/* 14 */
+li:nth-of-type(2) {
+    color: red;
+}
+
+/* 15 */
+#tue span:first-of-type{
+    color: blue;
+}
+
+/* 16 */
+#tue span:nth-of-type(2){
+    font-size: 200%;
+}
+
+/* 17 */
+li:nth-of-type(9) {
+    color: blue;
+}
+
+/* 18 */
+li:nth-of-type(5n+3) {
+    color: LawnGreen;
+}
